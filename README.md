@@ -60,15 +60,16 @@ python examples/run_brief.py
 
 ## Live run status
 
-The tool was run against the production endpoint on 2026-11-05. The
-first request returns the expected HTTP 402 response, and the tool
-signs and sends a valid authorization. The live run is still pending:
-no completed response has come back yet and nothing has settled on
-chain, so there is no transaction hash to print yet. This section
-will be updated after the first completed request.
+The tool completed a full run against the production endpoint on
+2026-11-06. The first request returned the expected HTTP 402
+response, the tool signed and sent a valid authorization, and the
+retry returned the complete brief. The transfer settled on chain and
+was verified against the ledger.
 
 - Payer: `0x2D98EE4949F391f957d10588C00D467AB1749fCe`
 - Network: `eip155:8453` (Base)
+- Amount: 0.01 USDC
+- Settlement transaction: `0xdb75a10a03876a999702f2f886c7014723d07dff5912c171b9aa5c7df4e60fea`
 
 ## License
 
