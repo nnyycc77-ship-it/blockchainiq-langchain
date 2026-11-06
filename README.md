@@ -62,10 +62,10 @@ python examples/run_brief.py
 
 The tool was run against the production endpoint on 2026-11-05. The
 first request returns the expected HTTP 402 response, and the tool
-signs and sends a valid authorization. As of the last check, the
-endpoint does not complete valid x402 requests: no response comes back
-and nothing settles on chain, so there is no transaction hash to print
-yet. This section will be updated after the first completed request.
+signs and sends a valid authorization. The live run is still pending:
+no completed response has come back yet and nothing has settled on
+chain, so there is no transaction hash to print yet. This section
+will be updated after the first completed request.
 
 - Payer: `0x2D98EE4949F391f957d10588C00D467AB1749fCe`
 - Network: `eip155:8453` (Base)
